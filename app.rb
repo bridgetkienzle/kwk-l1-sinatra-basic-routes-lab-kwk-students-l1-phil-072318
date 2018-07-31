@@ -6,6 +6,9 @@ class App < Sinatra::Base
   end 
   get '/name' do
   "my name is bridget"
+  end
+  get '/eagles' do
+  "the eagles are superbowl champs"
   end 
 
 end
